@@ -1,7 +1,7 @@
 ![Mudança de número de salas ativas no Brasil ao longo dos anos](ancine_salas_cinema.jpg)
 
 **Fonte:**
-[Dados Abertos](https://dados.ancine.gov.br/dados-abertos/salas-de-exibicao-evolucao-anual.json)
+[![Gov BR](govbr.webp)](https://dados.gov.br/dados/conjuntos-dados/salas-de-exibicao-e-complexos-registrados-na-ancine)
 
 **Autor:**
 Antonino Marques Jares
