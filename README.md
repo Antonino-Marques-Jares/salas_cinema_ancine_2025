@@ -27,7 +27,7 @@ df_pivot = df_regiao.pivot(index='DATA', columns='REGIAO', values='TOTAL').filln
 Agora estamos prontos para criar a animação
 
 # Veja as animações em
-[Área de Trampo](https://www.areadetrampo.com.br/salas-de-cinema-da-ancine-ativas-no-brasil-entre-2014-e-2025/)
+[Área de Trampo - Salas de cinema da ANCINE ativas no Brasil entre 2014 e 2025](https://www.areadetrampo.com.br/salas-de-cinema-da-ancine-ativas-no-brasil-entre-2014-e-2025/)
 
 
 
