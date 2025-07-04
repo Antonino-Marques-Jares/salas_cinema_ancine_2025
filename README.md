@@ -4,5 +4,19 @@
 Animações sobre quantidade de salas de cinema da ANCINE ativas por Estado ou Região entre 2014 e início de 2025
 
 # Passo 1
-Selecione https://dados.ancine.gov.br/dados-abertos/salas-de-exibicao-evolucao-anual.json que está em dados abertos
+Execute o código ANCINE.ipynb e sertifique-se que em url = **https://dados.ancine.gov.br/dados-abertos/salas-de-exibicao-evolucao-anual.json** que está em dados abertos
+
+# Passo 2 
+Converter UF no Nome do Estado
+
+# Passo 3
+Transformando STATUS em informação 0 ou 1 o que nos posibilita somar as salas com 1 (ABERTA) e agrupar por Estado e Ano
+
+# Passo 4
+Precisamos pivotear as colunas para criar a animação 
+df_pivot = df_regiao.pivot(index='DATA', columns='REGIAO', values='TOTAL').fillna(0)
+Agora estamos prontos para criar a animação
+
+
+
 
