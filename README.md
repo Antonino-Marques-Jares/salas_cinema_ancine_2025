@@ -1,10 +1,13 @@
 ![Mudança de número de salas ativas no Brasil ao longo dos anos](ancine_salas_cinema.jpg)
 
+**Fonte:**
+[Dados Abertos](https://dados.ancine.gov.br/dados-abertos/salas-de-exibicao-evolucao-anual.json)
+
 # salas_cinema_ancine_2025
 Animações sobre quantidade de salas de cinema da ANCINE ativas por Estado ou Região entre 2014 e início de 2025
 
 # Passo 1
-Execute o código ANCINE.ipynb e sertifique-se que em url = **https://dados.ancine.gov.br/dados-abertos/salas-de-exibicao-evolucao-anual.json** que está em dados abertos
+Execute o código ANCINE.ipynb e sertifique-se que em url está apontando para o json dos dados abertos (https://dados.ancine.gov.br/dados-abertos/salas-de-exibicao-evolucao-anual.json)
 
 # Passo 2 
 Converter UF no Nome do Estado
