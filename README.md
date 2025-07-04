@@ -26,6 +26,9 @@ Precisamos pivotear as colunas para criar a animação
 df_pivot = df_regiao.pivot(index='DATA', columns='REGIAO', values='TOTAL').fillna(0)
 Agora estamos prontos para criar a animação
 
+# Veja as animações em
+[Área de Trampo](https://www.areadetrampo.com.br/salas-de-cinema-da-ancine-ativas-no-brasil-entre-2014-e-2025/)
+
 
 
 
